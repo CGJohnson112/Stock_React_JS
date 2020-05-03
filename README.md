@@ -1,7 +1,7 @@
 # Stock_React_JS
-AlphaVantage app for stock selection--work in progress--uses ChartJS 
+AlphaVantage app for stock selection-uses ChartJS (build version)
 
-One component this could have used is an input field to select the stock you want. This is still in progress.
+One component this could have used is an input field to select the stock you want. This is finally added iusing handleSubmit(), handleChange() functions in the Stock.js script. 
 
 
 The ChartJS is very dynamic and displays data that is scalable and scrollable --you can zoom in and out of chart data.
