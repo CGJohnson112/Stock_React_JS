@@ -35,12 +35,12 @@ class Stock extends Component {
     componentDidMount(){
         this.fetchStock();
             }
-            //API KEY H8A1GBM1WNT6EMER for ALphaVantage
+            //API KEY .......... for ALphaVantage
             fetchStock(){
 
                 const pointerToThis = this;
                 //console.log(pointerToThis);
-                const API_KEY = 'H8A1GBM1WNT6EMER';
+                const API_KEY = 'GETYOUROWN';
                 let API_Call = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${stockName}&outputsize=compact&apikey=${API_KEY}`;
                 let stockChartXValuesFunction =[];
                 let stockChartYValuesFunction =[];
